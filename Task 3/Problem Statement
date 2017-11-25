@@ -1,0 +1,28 @@
+
+Problem Statement
+
+Task 3: Face Recognition using PCA
+
+The gallery folder `Gallery.zip' contains images from 40 individuals, each of them providing 5 images. The pixel intensities
+of the 200 face images will be used for computing the KL Transform. By employing the method of efficient computation of the 
+basis vectors for high dimensional data (discussed in class),
+
+(i) Display the Eigenface images corresponding to the top 5 Eigen values of the covariance matrix Σ.
+
+(ii) Plot a graph depicting the percentage of the total variance of the original data retained in the reduced space versus the 
+number of dimensions. From this graph, find the number of dimensions required for projecting the face vectors so that at least
+95% of the total variance of the original data is accounted for in the reduced space.
+
+(iii) Reconstruct the image ‘face input 1.pgm’ using the:
+
+(a) Eigenface corresponding to the largest eigenvalue.
+(b) Top 15 Eigenfaces
+(c) All the Eigenfaces
+
+Display the reconstructed image and the mean squared error in each case.
+
+(iv) Depict graphically the mean squared error obtained for different number of Eigenfaces. Note that the Eigenfaces will vary
+from 1 to 200 (total number of training samples).
+
+(v) Repeat the parts (iii) and (iv) for the image ‘face input 2.pgm’. Comment on your result.
+
