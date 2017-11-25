@@ -1,0 +1,26 @@
+
+Task 1: Character Recognition using Bayesian Classifier
+
+It is expected to build a rudimentary pattern recognizer by exploring out on the Bayesian classifier concepts. To this goal, you
+are given training images of 3 characters in a folder named TrainCharacters.rar. Each of the 200 training images of each class
+are of size 128 * 128. You are given 300 test images (100 in each class) of size 128 * 128 in a separate folder TestCharacters.rar.
+Assume the samples to be generated from a multi dimensional Gaussian distribution, having class specific mean vectors μi.
+Consider each of the modelling schemes for computing the covariance matrix.
+
+(i) The samples of a given character class are modelled by a separate covariance matrix Σi.
+
+(ii) The samples across all the characters are pooled to generate a common diagonal covariance matrix Σ. The diagonal entries
+correspond to the variances of the individual features, that are considered to be independent.
+
+(iii) The covariance matrix of each class is forced to be identity matrix. For each scenario, build a generative Bayesian 
+classifier using the training images and categorize the characters contained in the test folder. The mean and the covariance
+matrices are to be estimated from the training data using the Maximum Likelihood techniques,as discussed in class. Report the individual 
+character accuracies as well as the averaged accuracy for each of the models.
+
+Employ the 128 * 128 pixel intensity values directly as features in this task. If you happen to encounter memory storage issues 
+during simulation, you may consider resizing the images to a more manageable size (say 32*32) for the feature computation. However,
+note that in order to beat the curse of dimensionality, you have to add a regularization term of the form λ*I in the computation
+of the covariance matrix. 
+
+1(b) Give 4 examples of images from the test set that are misclassified by each of the classifiers designed in Task 1(a). 
+You need to display both the state of nature (true label) and the predicted class for each image.
