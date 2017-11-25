@@ -1,0 +1,12 @@
+
+Problem Statement
+
+Implement a GMM based clustering framework on the image ‘building.jpg’. You may
+choose 3 Gaussian components and use the RGB values as the features. Start the iterations
+using the means μ1 = [ 120 120 120 ]' μ2 = [ 12 12 12 ]' and μ3 = [ 180 180 180 ]'.
+
+Also assume an identity
+covariance matrix for each of the components.
+1. Dispay the segmented output.
+2. Display a graph depicting the convergence of the log likelihood values.
+
