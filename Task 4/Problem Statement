@@ -1,0 +1,10 @@
+
+Problem Statement
+
+Task 4 : Support Vector Machines
+
+Build a SVM Classifier for the classes !1 , !2 and !3 using a Radial Basis Function Kernel. Plot a graph depicting the 
+recognition accuracy on the test data Test1.mat, Test2.mat and Test3.mat for different values of penalty factors C and precisions
+of the Radial Basis Function. The software package that I recommend for this task is LibSVM. On their webpage, download the version 
+(either Matlab/Python),appropriate to the platform in which you are working.
+
